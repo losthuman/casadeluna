@@ -1,0 +1,97 @@
+html body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: #000000;
+  font-family: 'Lucida Grande', sans-serif;
+}
+
+.title {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.title h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.title p {
+  line-height: 0.5;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 0.8rem;
+}
+
+.navigation {
+  padding-top: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.navigation a:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.holder {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg {
+  position: relative;
+  width: auto;
+  height: 100%;
+  background-image: url(/images/Luna-2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.estudio {
+  position: relative;
+  display: block;
+  color: #777777;
+  padding-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.estudio-text {
+  position: relative;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.estudio-text p {
+  margin: 0;
+}
+
+.estudio .social {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.estudio .social i {
+  color: #777777;
+  padding-left: 0.5rem;
+}
+
+.estudio .social i:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
