@@ -11,16 +11,25 @@ html body {
   display: inline-block;
   margin-top: 20px;
   text-align: right;
-  color: #ffffff;
   margin-bottom: 5px;
 }
 
-.title h1 {
+.title a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.title a:hover {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.title a h1 {
   font-size: 1.5rem;
   text-transform: uppercase;
 }
 
-.title p {
+.title a p {
   line-height: 0.5;
   margin-top: 0;
   padding-top: 0;
@@ -93,5 +102,9 @@ html body {
 .estudio .social i:hover {
   color: #ffffff;
   cursor: pointer;
+}
+
+.contacts {
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

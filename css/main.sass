@@ -11,16 +11,22 @@ html
     display: inline-block
     margin-top: 20px    
     text-align: right   
-    color: #ffffff
+    
     margin-bottom: 5px
-    h1 
-        font-size: 1.5rem 
-        text-transform: uppercase
-    p 
-        line-height: 0.5
-        margin-top: 0
-        padding-top: 0
-        font-size: 0.8rem
+    a
+        text-decoration: none
+        color: #ffffff
+        &:hover
+            color: darken(#ffffff, 30%)
+            text-decoration: none
+        h1 
+            font-size: 1.5rem 
+            text-transform: uppercase
+        p 
+            line-height: 0.5
+            margin-top: 0
+            padding-top: 0
+            font-size: 0.8rem
 .navigation 
     padding-top: 20px
     position: relative
@@ -72,8 +78,10 @@ html
                 color: #ffffff
                 cursor: pointer        
 
-// ≥576px
-// @media (max-width: 576px)
+.contacts
+    color: #ffffff
+        
+
     
 
     
