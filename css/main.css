@@ -77,6 +77,11 @@ html body {
   background-repeat: no-repeat;
 }
 
+.develop {
+  color: #ffffff;
+  text-align: center;
+}
+
 .estudio {
   position: relative;
   display: block;
