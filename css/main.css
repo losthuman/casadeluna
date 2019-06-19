@@ -17,11 +17,15 @@ html body {
 .title a {
   text-decoration: none;
   color: #ffffff;
+  -webkit-transition: color ease 0.5s;
+  transition: color ease 0.5s;
 }
 
 .title a:hover {
   color: #b3b3b3;
   text-decoration: none;
+  -webkit-transition: color ease 0.5s;
+  transition: color ease 0.5s;
 }
 
 .title a h1 {
@@ -43,14 +47,18 @@ html body {
 }
 
 .navigation a {
-  color: #ffffff;
+  color: #777777;
   text-transform: uppercase;
   font-size: 0.8rem;
+  -webkit-transition: color ease 0.5s;
+  transition: color ease 0.5s;
 }
 
 .navigation a:hover {
   color: #ffffff;
   cursor: pointer;
+  -webkit-transition: color ease 0.5s;
+  transition: color ease 0.5s;
 }
 
 .holder {
@@ -97,11 +105,15 @@ html body {
 .estudio .social i {
   color: #777777;
   padding-left: 0.5rem;
+  -webkit-transition: color ease 0.5s;
+  transition: color ease 0.5s;
 }
 
 .estudio .social i:hover {
   color: #ffffff;
   cursor: pointer;
+  -webkit-transition: color ease 0.5s;
+  transition: color ease 0.5s;
 }
 
 .contacts {
