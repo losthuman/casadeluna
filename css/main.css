@@ -43,7 +43,6 @@ html body {
 .navigation {
   padding-top: 20px;
   position: relative;
-  display: inline-block;
 }
 
 .navigation a {
@@ -123,6 +122,10 @@ html body {
 
 .contacts {
   color: #ffffff;
+}
+
+.imglist a img {
+  padding: 7px;
 }
 
 @media (min-width: 576px) {
