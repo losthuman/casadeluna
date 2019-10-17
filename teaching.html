@@ -6,8 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Casa de Luna de Olga Shushkova</title>
         <base href="/">
-        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/main.css">
         <script src="https://kit.fontawesome.com/d407270ffc.js"></script>
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
@@ -23,69 +24,125 @@
         <noscript><div><img src="https://mc.yandex.ru/watch/54131620" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
     </head>
-<body>
-    <div class="holder">
-
-        <div class="container h-100 d-flex flex-column justify-content-between">
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-dark d-flex flex-row">
-                        <div class="navbar-brand justify-content-start">
-                            <div class="title">
-                                <a href="/">
-                                    <h1>Casa de Luna</h1>
-                                    <p>de Olga Shushkova</p>
-                                </a>
+    <body>
+    <!-- Header -->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <nav class="navbar navbar-expand-lg navbar-dark d-flex flex-row">
+                            <div class="navbar-brand justify-content-start">
+                                <div class="title">
+                                    <a href="/">
+                                        <h1>Casa de Luna</h1>
+                                        <p>de Olga Shushkova</p>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                        aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                                
-                            <div class="navbar-nav navigation ">
-                                <a class="nav-item nav-link d-flex justify-content-end" href="about.html">о студии</a>
-                                <a class="nav-item nav-link d-flex justify-content-end" href="teaching.html">обучение</a>
-                                <a class="nav-item nav-link d-flex justify-content-end" href="/gallery.html">галерея</a>
-                                <a class="nav-item nav-link d-flex justify-content-end" href="/contacts.html">контакты</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                    
+                                <div class="navbar-nav navigation">
+                                    <a class="nav-item nav-link d-flex justify-content-end" href="about.html">о студии</a>
+                                    <a class="nav-item nav-link d-flex justify-content-end" href="teaching.html">обучение</a>
+                                    <a class="nav-item nav-link d-flex justify-content-end" href="/gallery.html">галерея</a>
+                                    <a class="nav-item nav-link d-flex justify-content-end" href="/contacts.html">контакты</a>
+                                </div>
                             </div>
-                        </div>
-                    </nav>
-                        <div class="col">
-                            <div class="contacts mt-5 ">
-                                <h4 class="text-white-50">Страница находится в разработке</h4>
-
-                            </div>
-   
-                        </div>
-                </div>
-            </div>
-
-            <div class="estudio d-flex justify-content-between align-items-center">
-                <div class="estudio-text">
-
-                    <p>estudio flamenco</p>
-                </div>
-                <div class="social">
-                    <a href="https://vk.com/casadeluna">
-
-                        <i class="fab fa-vk fa-lg"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-youtube fa-lg"></i>
-                    </a>
-                    <a href="https://www.instagram.com/casadeluna.ru/">
-                        <i class="fab fa-instagram  fa-lg"></i>
-                    </a>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
- 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col">
+                        <h3 class="p-4 text-white-50">Наш класс</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg text-white">
+                        <p class="pt-2">Занятия проводятся в специально созданном для фламенко танцевальном классе. Класс расположен во дворце культуры всероссийского  общества глухих, в центре Челябинска, по адресу: улица Красноармейская, 140. Рядом ТЦ "Радуга", недалеко от проспекта Ленина, улиц Свободы и Российской.</p>
+                        <p class="pt-2">Площадь класса 46 квадратных метров, что оптимально и для индивидуальных, и для групповых занятий. Конструкция пола из фанеры рассчитана для занятий фламенко, русской чечеткой, ирландскими танцами и другими искусствами, требующими особого звучания от пола.</p>
+                        <p class="pt-2">Занятия могут проводятся в будние и выходные дни с 08:00 до 22:00 часов. По вопросам почасовой аренды класса обращайтесь по реквизитам, указанным в разделе <a href="/contacts.html">Контакты</a></p>
+                        <div class="text-center">
+                            <img src="./images/Klass-1.jpeg" alt="Танцевальный класс" class="img-fluid m-auto p-1">
+                            <img src="./images/Klass-2.jpeg" alt="Танцевальный класс" class="img-fluid m-auto p-1">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <section>
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col">
+                            <h3 class="p-4 text-white-50 mt-4">Стоимость обучения</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg text-white">
+                            <h5>Стоимость абонемента (утро):</h5>
+                            <ul>
+                                <li>На 4 занятия - 1200 руб</li>
+                                <li>На 8 занятий - 2000 руб</li>
+                                <li>Разовое занятие - 300 руб</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg text-white">
+                            <h5>Стоимость абонемента (вечер):</h5>
+                            <ul>
+                                <li>На 4 занятия - 1300 руб</li>
+                                <li>На 8 занятий - 2200 руб</li>
+                                <li>На 12 занятий – 2900 руб</li>
+                                <li>Разовое занятие - 350 руб</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+        <!-- Footer -->
+        <footer class="mt-5">
+            <div class="container">
+                <div class="row">
+                <div class="col">
+                    <div class="estudio fixed-bottom d-flex justify-content-between align-items-center">
+                    <div class="estudio-text">
+                        <p>estudio flamenco</p>
+                    </div>
+                        <div class="social">
+                            <a href="https://vk.com/casadeluna">
+                                <i class="fab fa-vk fa-lg"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-youtube fa-lg"></i>
+                            </a>
+                            <a href="https://www.instagram.com/casadeluna.ru/">
+                                <i class="fab fa-instagram  fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
 </html>
