@@ -33,7 +33,6 @@ html
 .navigation 
     padding-top: 20px
     position: relative
-    // display: inline-block
     a 
         color: #777777
         text-transform: uppercase
@@ -51,17 +50,26 @@ html
 
 .bg
     position: relative
-    width: auto
-    height: 100%
-    // background-image: url(../images/Group3.svg)
-    background-image: url(../images/Luna-2.jpg)
-    background-size: contain
+    width: 100vw
+    height: 100vh
+    background-image: url(../images/Group3.svg)
+    background-size: cover
     background-position: center
     background-repeat: no-repeat
 
-.develop
-    color: #ffffff
-    text-align: center
+
+.logo
+    position: absolute
+    right: 0
+    top: 40%
+    text-align: right
+    img 
+        max-width: 80%
+
+.ellipse
+    position: absolute
+    z-index: 2
+    right: -20%
 
 .estudio
     position: relative
